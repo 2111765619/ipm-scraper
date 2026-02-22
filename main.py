@@ -1,0 +1,1 @@
+from scraper import scrape_data \nfrom scheduler import schedule_scraping \n\nif __name__ == '__main__': \n    schedule_scraping(scrape_data)
